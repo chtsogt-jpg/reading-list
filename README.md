@@ -2,7 +2,7 @@
 
 A personal reading tracker built as my Project 3 capstone. Add books, rate them, write short reviews, set a yearly goal, and watch your progress fill up.
 
-**Live app:** _(paste your streamlit.app URL after deploying)_
+**Live app:** https://reading-list-f9nhkkcntybdbjyqcs25nh.streamlit.app/
 
 ## Features
 

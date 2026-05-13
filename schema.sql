@@ -22,3 +22,8 @@ create table if not exists goals (
 
 create index if not exists books_user_status_idx on books (user_id, status);
 create index if not exists books_user_finished_idx on books (user_id, finished_at);
+
+-- This is a single-user personal app. Disable RLS so the anon key can read/write.
+-- For a multi-user version, you'd instead add policies tied to auth.uid().
+alter table books disable row level security;
+alter table goals disable row level security;
